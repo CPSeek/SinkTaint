@@ -5,6 +5,15 @@ This is a prototype of a taint-style vulnerability discovery method in embedded 
 
 <img src=sinktaint-workflow.jpg width=70% />
 
+# Running example
+```bash
+# directory: sinktaint_front
+python3 sinktaint.py -d /home/sinktaint/firmware/XR300/squashfs-root/ -o ~/output/XR300/ --ghidra_script=ref2sink_bof
+# directory: taint_check
+python3 sinktaint_main.py /home/sinktaint/output/XR300/ghidra_extract_result/httpd/httpd /home/sinktaint/output/XR300/ghidra_extract_result/httpd/httpd_ref2sink_bof.result-filte
+
+```
+
 # Research paper
 
 We present our approach and findings of this work in the following research paper: <br>
