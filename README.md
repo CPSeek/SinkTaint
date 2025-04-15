@@ -1,5 +1,6 @@
 # SinkTaint
 This is a prototype of a taint-style vulnerability discovery method in embedded firmware (SinkTaint), a precise and novel method that employs backtracking and constraint analysis to achieve high precision. 
+* Our method is based on [SaTC](https://github.com/NSSL-SJTU/SaTC) and [Karonte](https://github.com/ucsb-seclab/karonte). We would like to express our gratitude to the authors for opening source their work.
 
 
 <img src=sinktaint-workflow.jpg width=70% />
