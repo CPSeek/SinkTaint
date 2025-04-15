@@ -18,7 +18,7 @@ python3 sinktaint_main.py /home/sinktaint/output/XR300/ghidra_extract_result/htt
 # Research paper
 
 We present our approach and findings of this work in the following research paper: <br>
-<strong> Precise Discovery of More Taint-Style Vulnerabilities in Embedded Firmware </strong>
+<strong> [Precise Discovery of More Taint-Style Vulnerabilities in Embedded Firmware](https://ieeexplore.ieee.org/document/10613486) </strong>
 
 *Published in: IEEE Transactions on Dependable and Secure Computing*
 
