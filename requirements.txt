@@ -1,0 +1,21 @@
+angr==9.0.6588
+archinfo==9.0.6588
+binwalk==2.3.3+fa0c0bd
+capstone==5.0.0
+claripy==9.0.6588
+cle==9.0.6588
+coloredlogs==15.0.1
+colorlog==6.6.0
+func-timeout==4.3.5
+matplotlib==2.1.1
+networkx==2.5.1
+numpy==1.19.5
+python-lzo==1.14
+pyvex==9.0.6588
+scikit-learn== 0.24.2
+scipy==1.5.4
+six==1.16.0
+ubi-reader==0.7.2
+unicorn==1.0.2rc4
+uPnPClient==0.0.8
+z3-solver==4.8.15.0
