@@ -5,7 +5,8 @@ This is a prototype of a taint-style vulnerability discovery method in embedded 
 
 <img src=sinktaint-workflow.jpg width=95% />
 
-* Our method is based on [SaTC](https://github.com/NSSL-SJTU/SaTC) and [Karonte](https://github.com/ucsb-seclab/karonte). We would like to express our gratitude to the authors for opening source their work.
+* Our method is based on [SaTC](https://github.com/NSSL-SJTU/SaTC) and [Karonte](https://github.com/ucsb-seclab/karonte). We would like to express our gratitude to the authors for opening the source of their work.
+* The version of Ghidra used in this project is version 10.1.
 # Running example
 ```bash
 # directory: sinktaint_front
